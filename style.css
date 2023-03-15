@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x:hidden;
+}
+.wrapper{
+    background-color: rgb(168, 168, 168);
+    /* display: flex; */
+    margin:  20px ;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 34px;
+}
+
+.displayCal{
+    height: 60px;
+    width: 100%vw;
+    border: 1px solid black ;
+    margin: 10px;
+}
+
+
+.btn{
+    margin-top: 12px;
+    gap: 10px;
+    display: flex;
+    /* padding: 12px; */
+    flex-wrap: wrap;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+.btn-1{
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 35px;
+    margin: auto;
+    width: 35px;
+    background-color: beige;
+    border: 1px solid black; 
+    box-shadow: 0px 0px 6px black;
+}
+ 
+.sign{  
+    margin: 5px;
+    display: flex;
+    cursor: pointer;
+}
+
+.xt{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 35px;
+    width: 55px;
+    margin: auto;
+    border-radius: 23px ;
+    background-color: beige;
+    border: 1px solid black; 
+
+}
+
+.total{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: beige;
+    border: 1px solid black; 
+    border-radius: 45px;
+    cursor: pointer;
+}
